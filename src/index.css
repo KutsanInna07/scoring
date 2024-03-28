@@ -1,13 +1,37 @@
-body {
+h1 {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.score-container {
+  text-align: center;
+  background-color: aqua;
+}
+
+.score-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  font-size: 50pt;
+}
+
+.score-button {
+  font-size: 25pt;
+  cursor: pointer;
+  margin-left: 20pt;
+}
+
+.score-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.add-score-container {
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.user-input {
+  font-size: 20pt;
+  background-color: rgb(23, 224, 103);
 }
